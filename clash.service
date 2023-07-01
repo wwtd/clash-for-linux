@@ -1,0 +1,15 @@
+[Unit]
+Description='service for clash-for-linux'
+Documentation=
+After=network-online.target
+Want=
+Requires=
+
+[Service]
+ExecStart=/bin/bash /home/tengfei/tools/clash-for-linux/start-mask.sh
+ExecStop=/bin/bash /home/tengfei/tools/clash-for-linux/shutdown.sh
+ExecReload=/bin/bash /home/tengfei/tools/clash-for-linux/restart.sh
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
