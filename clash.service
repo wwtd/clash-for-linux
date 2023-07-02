@@ -6,7 +6,7 @@ Want=
 Requires=
 
 [Service]
-ExecStart=/bin/bash /home/tengfei/tools/clash-for-linux/start-mask.sh
+ExecStart=/bin/bash /home/tengfei/tools/clash-for-linux/start.sh
 ExecStop=/bin/bash /home/tengfei/tools/clash-for-linux/shutdown.sh
 ExecReload=/bin/bash /home/tengfei/tools/clash-for-linux/restart.sh
 Type=forking
