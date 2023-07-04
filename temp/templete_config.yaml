@@ -26,3 +26,7 @@ secret: 'b&ZlKTte5OnEt2Sn'
 # 参数应填写配置目录的相对路径或绝对路径。
 # external-ui: /code/clash-dashboard
 
+
+# 增加ipv6支持
+ipv6: true
+
